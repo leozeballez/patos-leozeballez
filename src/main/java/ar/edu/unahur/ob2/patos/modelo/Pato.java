@@ -15,7 +15,6 @@ public abstract class Pato {
     }
 
 
-
     public void volar() {
         comportamientoDeVuelo.volar();
     }
