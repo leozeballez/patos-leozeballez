@@ -15,6 +15,7 @@ public abstract class Pato {
     }
 
 
+
     public void volar() {
         comportamientoDeVuelo.volar();
     }
@@ -29,6 +30,14 @@ public abstract class Pato {
 
     public void setComportamientoDeVuelo(Volable comportamientoDeVuelo) {
         this.comportamientoDeVuelo = comportamientoDeVuelo;
+    }
+
+    public void setComportamientoDeNado(Nadable comportamientoDeNado) {
+        this.comportamientoDeNado = comportamientoDeNado;
+    }
+
+    public void setComportamientoDeParpeo(Parpable comportamientoDeParpeo) {
+        this.comportamientoDeParpeo = comportamientoDeParpeo;
     }
 
     public abstract void dibujar();
